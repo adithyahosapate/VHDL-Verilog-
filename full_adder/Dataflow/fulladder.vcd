@@ -1,0 +1,91 @@
+$date
+	Sun Oct  1 15:46:45 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module Top $end
+$var wire 1 ! sum $end
+$var wire 1 " c1 $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c $end
+$scope module fu1 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % c $end
+$var wire 1 " c1 $end
+$var wire 1 & sum1 $end
+$var wire 1 ! sum $end
+$var wire 1 ' c_2 $end
+$var wire 1 ( c_1 $end
+$scope module h1 $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 ( c $end
+$var wire 1 & sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 & a $end
+$var wire 1 % b $end
+$var wire 1 ' c $end
+$var wire 1 ! sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#50
+1!
+1%
+#100
+1&
+0%
+1$
+#150
+1"
+0!
+1'
+1%
+#200
+0"
+1!
+0'
+0%
+0$
+1#
+#250
+1"
+0!
+1'
+1%
+#300
+0'
+0&
+1(
+0%
+1$
+#350
+1!
+1%
+#400
+0"
+0!
+0(
+0%
+0$
+0#
+#450
