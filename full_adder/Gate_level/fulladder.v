@@ -13,6 +13,6 @@ and a2(and_2,in0,in1);
 
 or o1(c_out,and_2,and_1);
 
-
+	
 
 endmodule
