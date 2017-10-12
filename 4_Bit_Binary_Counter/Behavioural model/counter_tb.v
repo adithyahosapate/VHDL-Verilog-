@@ -12,7 +12,10 @@ counter c1(clk, reset , Q);
 initial 
 	begin
 		reset = 0;
-		
+		#1000 reset=1;
+		#100 reset=0;
+		#5000 reset=1;
+		#100  reset=0;
 		#10000 $finish;
 
 	end
