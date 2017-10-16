@@ -25,7 +25,7 @@ sudo apt-get install iverilog
 ```
 
 
-For the verilog projects, **GHDL** and **gtkwave** are the dependencies
+For the VHDL projects, **GHDL** and **gtkwave** are the dependencies
 Run the following commands to install dependencies on Linux
 
 
