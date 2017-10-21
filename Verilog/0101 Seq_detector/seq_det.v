@@ -31,7 +31,7 @@ module seq_det(din, reset, clk, z);
 		endcase
 	end
 	
-	always @(posedge clk)
+	always @(posedge(clk))
 	begin 
 		if(reset)
 			cst <= A;
@@ -39,3 +39,5 @@ module seq_det(din, reset, clk, z);
 			cst <= nst;
 	end 
 	endmodule
+
+
